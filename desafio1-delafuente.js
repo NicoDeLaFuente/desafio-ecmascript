@@ -50,14 +50,3 @@ class ProductManager {
     }
 }
 
-
-
-const productos = new ProductManager()
-
-productos.addProduct("producto prueba", "este es un producto prueba", 200, "sin imagen", "abc123", 25);
-productos.addProduct("producto solar", "este es un producto prueba", 500, "sin imagen", "aas213", 5);
-productos.addProduct("producto luminico", "este es un producto prueba", 330, "sin imagen", "asd432", 10);
-
-
-console.log(productos.getProductById(6))
-
